@@ -27,8 +27,6 @@ dependencies {
             url 'https://oss.sonatype.org/content/repositories/snapshots/'
         }
     }
-    compile 'com.android.support:appcompat-v7:+'
-
     instrumentTestCompile 'junit:junit:4.10'
     instrumentTestCompile 'org.robolectric:robolectric:2.3-SNAPSHOT'
     instrumentTestCompile 'com.squareup:fest-android:1.0.+'
