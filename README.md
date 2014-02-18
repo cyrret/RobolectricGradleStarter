@@ -6,7 +6,7 @@
 2. Import the project with default settings
 3. Go to Project Structure -> Modules -> RobolectricGradleExample pane
 4. In the Paths tab, set the Test Output Path to [root path]/RobolectricGradleExample/build/test-classes/debug
-5. In the Dependencies tab, move the Module SDK dependency (i.e. Androidf API 19 Platform) to be the last item in the list.
+5. In the Dependencies tab, move the Module SDK dependency (i.e. Android API 19 Platform) to be the last item in the list.
 
 
 <h4>Android Studio:</h4>
