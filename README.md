@@ -1,14 +1,15 @@
-Building and running unit tests from the command line:
-./gradlew build
-
-Intellij:
+<h4>Building and running unit tests from the command line:</h4>
+<code>./gradlew build</code>
+<br>
+<h4>Intellij:</h4>
 1. Open the build.gradle file
 2. Import the project with default settings
 3. Go to Project Structure -> Modules -> RobolectricGradleExample pane
 4. In the Paths tab, set the Test Output Path to [root path]/RobolectricGradleExample/build/test-classes/debug
 5. In the Dependencies tab, move the Module SDK dependency (i.e. Androidf API 19 Platform) to be the last item in the list.
 
-Android Studio:
+
+<h4>Android Studio:</h4>
 This is essentially the same as for Intellij. However, because Test Output Path and Dependencies Ordering are not modifiable via UI in Android Studio, you must modify these items in the project iml file directly and reload the project. These are the necessary modifications:
 
 	<component name="NewModuleRootManager" inherit-compiler-output="false">
