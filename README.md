@@ -3,7 +3,7 @@ RobolectricGradleStarter
 A Gradle starter project for your Android app that enables running Robolectric tests in both the IDE and commandline. Supports both focused and full-suite test runs.
 
 Command-line
-------------------------------------------------------
+------------
 ```bash
 ./gradlew build
 ```
