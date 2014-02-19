@@ -1,3 +1,5 @@
+<h2>RobolectricGradleStarter</h2>
+<p>A Gradle starter project for your Android app that enables running Robolectric tests in both the IDE and commandline. Supports both focused and full-suite test runs.</p>
 <h4>Building and running unit tests from the command line:</h4>
 <code>./gradlew build</code>
 <br>
@@ -16,9 +18,5 @@ This is essentially the same as for Intellij. However, because Dependencies Orde
 	    	<orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />					<---make sure this is the last orderEntry
 		</component>
 	</module>
-
-
-
-RobolectricGradleExample.iml has been checked-in as a starting point.
 
 
